@@ -1,0 +1,46 @@
+name: instagram_clone
+description: Instagram Clone
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_screenutil: ^5.0.0+2
+  gradient_text: ^1.0.2
+  provider: ^5.0.0
+  line_icons: ^2.0.1
+  textfield_search: ^0.8.0
+  device_apps: ^2.1.1
+  font_awesome_flutter: ^9.0.0
+  email_validator: ^2.0.1
+  intl: ^0.17.0
+  firebase_auth: ^1.1.4
+  firebase_core: ^1.1.1
+  cloud_firestore: ^2.1.0
+  shared_preferences: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Mrs Onion
+      fonts:
+        - asset: assets/fonts/Mrs Onion.otf
+    - family: Sebino
+      fonts:
+        - asset: assets/fonts/Sebino Regular.ttf
+    - family: Billabong
+      fonts:
+        - asset: assets/fonts/Billabong.ttf
